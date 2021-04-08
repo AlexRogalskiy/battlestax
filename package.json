@@ -2,7 +2,7 @@
   "name": "battlestax",
   "version": "0.0.1",
   "dependencies": {
-    "@astrajs/collections": "0.0.10",
+    "@astrajs/collections": "0.0.13",
     "@material-ui/core": "^4.11.3",
     "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.9",
