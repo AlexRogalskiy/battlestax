@@ -70,8 +70,8 @@ Let's do some initial setup by creating a serverless(!) database.
 
 
 ## Running the full game
-*Make sure you've completed the [prerequisites](#prerequisites) before starting this step*
-  - [Running on your local machine](#running-on-your-local-machine)
+*Make sure you've completed the [prerequisites](https://github.com/DataStax-Examples/battlestax#prerequisites) before starting this step*
+  - [Running on your local machine](https://github.com/DataStax-Examples/battlestax#running-on-your-local-machine)
 
 ### Running on your local machine
 
@@ -99,7 +99,7 @@ npm run dev
 The above instructions are great to get you up and running pretty quickly, but if you would like to learn how to fully deploy the application to production with JAMStack then click the button below to get started.
 
 <p align="center">
-<a href="../../wiki">
+<a href="https://github.com/DataStax-Examples/battlestax/wiki">
  <img src="https://dabuttonfactory.com/button.png?t=Open+the+workshop&f=Roboto-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798" />
 </a>
 </p>
