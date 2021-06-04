@@ -8,5 +8,5 @@
   "netlifyUrl": "https://app.netlify.com/start/deploy?repository=https://github.com/DataStax-Examples/battlestax",
   "tags": [{ "name": "javascript" }, { "name": "document API" }, {"name": "workshop"}],
   "category": "apps",
-  "priority": 1
+  "priority": 2
 }
