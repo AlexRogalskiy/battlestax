@@ -31,29 +31,32 @@ To build and play with this app, follow the build instructions that are located 
 Follow the instructions below to get started.
 
 ## Prerequisites
-Let's do some initial setup.
+Let's do some initial setup by creating a serverless(!) database.
 
 ### DataStax Astra
-1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=battlestax) if you don't 
-already have one:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=battlestax) if you don't already have one:
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
-2. On the home page. Locate the button **`Add Database`**
+2. On the home page. Locate the button **`Create Database`**
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-dashboard.png)
 
-3. Pick **free plan** and a **region** close to you, click configure.
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-top.png)
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-bottom.png)
+3. Locate the **`Get Started`** button to continue
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-select-plan.png)
 
-4. Define a **database name**, **keyspace name** and **credentials** (Take note of the DB Password)
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-2.png)
+4. Define a **database name**, **keyspace name** and select a database **region**, then click **create database**.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db.png)
 
 5. Your Astra DB will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥 
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-active.png)
 
-6. After your database is provisioned, head to the `Connect` screen and copy your connection 
-information (we'll need this later!):
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-connect.png)
+6. After your database is provisioned, we need to generate an Application Token for our App. Go to the `Settings` tab in the database home screen.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings.png)
+
+6. Select `Admin User` for the role for this Sample App and then generate the token. Download the CSV so that we can use the credentials we need later.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings-token.png)
+
+7. After you have your Application Token, head to the database connect screen and copy the connection information that we'll need later. We'll replace `ASTRA_DB_APPLICATION_TOKEN` with the `Token` value that is part of your Application Token.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-connect.png)
 
 ### Github
 1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/battlestax):
@@ -67,8 +70,8 @@ information (we'll need this later!):
 
 
 ## Running the full game
-*Make sure you've completed the [prerequisites](#prerequisites) before starting this step*
-  - [Running on your local machine](#running-on-your-local-machine)
+*Make sure you've completed the [prerequisites](https://github.com/DataStax-Examples/battlestax#prerequisites) before starting this step*
+  - [Running on your local machine](https://github.com/DataStax-Examples/battlestax#running-on-your-local-machine)
 
 ### Running on your local machine
 
@@ -91,13 +94,14 @@ npm install
 # start battlestax in dev mode
 npm run dev
 ```
-<!--- ENDEXCLUDE --->
 
 ## Tutorial Steps
 The above instructions are great to get you up and running pretty quickly, but if you would like to learn how to fully deploy the application to production with JAMStack then click the button below to get started.
 
 <p align="center">
-<a href="../../wiki">
+<a href="https://github.com/DataStax-Examples/battlestax/wiki">
  <img src="https://dabuttonfactory.com/button.png?t=Open+the+workshop&f=Roboto-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798" />
 </a>
 </p>
+
+<!--- ENDEXCLUDE --->
