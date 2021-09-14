@@ -7,7 +7,7 @@
 BattleStax is a stateful JAMStack game that is wholesome fun for the entire crew.
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/battlestax/master/tutorial/battlestax.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/battlestax/master/hero.png)
 
 
 ## Objectives
